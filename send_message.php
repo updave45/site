@@ -1,6 +1,6 @@
 <?php 
 header("content-type:application/json;charset=utf-8");
-$dest = 'postmaster@contact.updave@gmail.com';
+$dest = 'contact.updave@gmail.com';
 
 $subject = $_POST['subject'];
 $name = $_POST['name'] ;
