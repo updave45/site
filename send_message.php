@@ -25,7 +25,7 @@ $message = $_POST['message'] ;
 
 $content = $subject."\n\n".$name."\n\n" .$email."\n\n" .$tel."\n\n" .$message;
 
-mail($email, $subject, $content);
+mail($dest, $subject, $content);
 header("Location: https://updave.fr/n/#contact");
 		?>
 	
